@@ -84,9 +84,8 @@ Carmen Sarmientos, dolores de parto, B
 ## Run
 
 ```bash
-mvn package
-java -cp target/hoja8-priority-queue-1.0-SNAPSHOT.jar uvg.edu.gt.MainVectorHeap
-java -cp target/hoja8-priority-queue-1.0-SNAPSHOT.jar uvg.edu.gt.MainJavaPQ
+mvn exec:java -Dexec.mainClass=uvg.edu.gt.MainVectorHeap
+mvn exec:java -Dexec.mainClass=uvg.edu.gt.MainJavaPQ
 ```
 
 ## Test
